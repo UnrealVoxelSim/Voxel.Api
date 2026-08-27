@@ -9,13 +9,11 @@
 
 namespace UnrealVoxelSim::Voxel::Api
 {
+	class IEditor
+	{
+	public:
+		virtual ~IEditor() = default;
 
-class IEditor
-{
-  public:
-    virtual ~IEditor() = default;
-
-    [[nodiscard]] virtual std::expected<EditResult, EditFailure> Apply(std::span<const CellMutation> mutations) = 0;
-};
-
+		[[nodiscard]] virtual std::expected<EditResult, EditFailure> Apply(std::span<const CellMutation> mutations) = 0;
+	};
 } // namespace UnrealVoxelSim::Voxel::Api

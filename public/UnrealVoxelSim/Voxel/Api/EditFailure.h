@@ -7,12 +7,10 @@
 
 namespace UnrealVoxelSim::Voxel::Api
 {
-
-struct EditFailure final
-{
-    EditError Error{};
-    std::size_t MutationIndex{};
-    CellValue Actual{};
-};
-
+	struct EditFailure final
+	{
+		EditError Error{};
+		std::size_t MutationIndex{};
+		CellValue Actual{};
+	};
 } // namespace UnrealVoxelSim::Voxel::Api

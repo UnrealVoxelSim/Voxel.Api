@@ -5,12 +5,10 @@
 
 namespace UnrealVoxelSim::Voxel::Api
 {
-
-struct CellMutation final
-{
-    Position Position{};
-    CellValue Expected{};
-    CellValue Desired{};
-};
-
+	struct CellMutation final
+	{
+		Position Position{};
+		CellValue Expected{};
+		CellValue Desired{};
+	};
 } // namespace UnrealVoxelSim::Voxel::Api

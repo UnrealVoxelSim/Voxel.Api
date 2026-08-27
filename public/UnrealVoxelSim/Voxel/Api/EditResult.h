@@ -4,10 +4,8 @@
 
 namespace UnrealVoxelSim::Voxel::Api
 {
-
-struct EditResult final
-{
-    std::size_t ChangedCellCount{};
-};
-
+	struct EditResult final
+	{
+		std::size_t ChangedCellCount{};
+	};
 } // namespace UnrealVoxelSim::Voxel::Api

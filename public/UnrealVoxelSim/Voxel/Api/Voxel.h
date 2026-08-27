@@ -1,3 +1,5 @@
+// TODO remove proxy-header
+
 #pragma once
 
 #include "UnrealVoxelSim/Voxel/Api/CellMutation.h"
