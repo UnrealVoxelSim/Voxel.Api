@@ -33,5 +33,5 @@ TEST(RegionTest, RejectsInvertedBounds)
     EXPECT_FALSE(region.CellCount().has_value());
 }
 
-} // namespace
-} // namespace UnrealVoxelSim::Voxel::Api
+}
+}

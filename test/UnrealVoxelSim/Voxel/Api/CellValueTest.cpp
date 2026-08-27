@@ -17,5 +17,5 @@ TEST(CellValueTest, ZeroIsTheCanonicalEmptyValue)
     EXPECT_EQ(CellValue{}.Value(), 0U);
 }
 
-} // namespace
-} // namespace UnrealVoxelSim::Voxel::Api
+}
+}

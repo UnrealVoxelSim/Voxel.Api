@@ -8,4 +8,4 @@ namespace UnrealVoxelSim::Voxel::Api
 		DuplicatePosition,
 		ValueConflict,
 	};
-} // namespace UnrealVoxelSim::Voxel::Api
+}

@@ -14,5 +14,5 @@ TEST(VoxelTopologyTest, DeclaresExactlyTheSixFaceNeighbors)
     EXPECT_EQ(FaceNeighborOffsets[5], (Offset{0, 0, 1}));
 }
 
-} // namespace
-} // namespace UnrealVoxelSim::Voxel::Api
+}
+}

@@ -15,4 +15,4 @@ namespace UnrealVoxelSim::Voxel::Api
 
 		[[nodiscard]] virtual std::expected<CellValue, ReadError> Read(Position position) const noexcept = 0;
 	};
-} // namespace UnrealVoxelSim::Voxel::Api
+}

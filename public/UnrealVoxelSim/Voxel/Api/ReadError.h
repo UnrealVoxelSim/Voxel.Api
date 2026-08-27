@@ -9,4 +9,4 @@ namespace UnrealVoxelSim::Voxel::Api
 		RegionVolumeOverflow,
 		OutputSizeMismatch,
 	};
-} // namespace UnrealVoxelSim::Voxel::Api
+}

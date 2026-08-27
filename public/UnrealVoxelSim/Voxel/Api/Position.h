@@ -16,4 +16,4 @@ namespace UnrealVoxelSim::Voxel::Api
 	};
 
 	static_assert(std::is_trivially_copyable_v<Position>);
-} // namespace UnrealVoxelSim::Voxel::Api
+}

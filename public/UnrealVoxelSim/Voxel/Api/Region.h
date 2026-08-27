@@ -62,4 +62,4 @@ namespace UnrealVoxelSim::Voxel::Api
 
 		auto operator<=>(const Region&) const = default;
 	};
-} // namespace UnrealVoxelSim::Voxel::Api
+}

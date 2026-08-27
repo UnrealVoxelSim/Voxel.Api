@@ -18,4 +18,4 @@ namespace UnrealVoxelSim::Voxel::Api
 		[[nodiscard]] virtual std::expected<void, ReadError> ReadRegion(Region region,
 		                                                                std::span<CellValue> output) const noexcept = 0;
 	};
-} // namespace UnrealVoxelSim::Voxel::Api
+}

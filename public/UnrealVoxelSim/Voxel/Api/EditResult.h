@@ -8,4 +8,4 @@ namespace UnrealVoxelSim::Voxel::Api
 	{
 		std::size_t ChangedCellCount{};
 	};
-} // namespace UnrealVoxelSim::Voxel::Api
+}

@@ -33,4 +33,4 @@ namespace UnrealVoxelSim::Voxel::Api
 
 	static_assert(sizeof(CellValue) == sizeof(std::uint32_t));
 	static_assert(std::is_trivially_copyable_v<CellValue>);
-} // namespace UnrealVoxelSim::Voxel::Api
+}

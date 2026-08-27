@@ -16,4 +16,4 @@ namespace UnrealVoxelSim::Voxel::Api
 
 		[[nodiscard]] virtual std::expected<EditResult, EditFailure> Apply(std::span<const CellMutation> mutations) = 0;
 	};
-} // namespace UnrealVoxelSim::Voxel::Api
+}

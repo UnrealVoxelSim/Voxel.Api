@@ -13,4 +13,4 @@ namespace UnrealVoxelSim::Voxel::Api
 		std::size_t MutationIndex{};
 		CellValue Actual{};
 	};
-} // namespace UnrealVoxelSim::Voxel::Api
+}

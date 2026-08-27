@@ -16,4 +16,4 @@ namespace UnrealVoxelSim::Voxel::Api
 	};
 
 	static_assert(std::is_trivially_copyable_v<Offset>);
-} // namespace UnrealVoxelSim::Voxel::Api
+}

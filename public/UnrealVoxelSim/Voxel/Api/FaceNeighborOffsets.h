@@ -15,4 +15,4 @@ namespace UnrealVoxelSim::Voxel::Api
 		Offset{0, 0, -1},
 		Offset{0, 0, 1},
 	};
-} // namespace UnrealVoxelSim::Voxel::Api
+}

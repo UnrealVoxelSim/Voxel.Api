@@ -14,4 +14,4 @@ namespace UnrealVoxelSim::Voxel::Api
 		// TODO Rename to GetBounds()
 		[[nodiscard]] virtual Region Bounds() const noexcept = 0;
 	};
-} // namespace UnrealVoxelSim::Voxel::Api
+}

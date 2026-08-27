@@ -11,4 +11,4 @@ namespace UnrealVoxelSim::Voxel::Api
 		CellValue Expected{};
 		CellValue Desired{};
 	};
-} // namespace UnrealVoxelSim::Voxel::Api
+}
