@@ -11,24 +11,24 @@ class CellValue final
 {
   public:
     constexpr CellValue() noexcept = default;
-    explicit constexpr CellValue(const std::uint32_t value) noexcept : Value_(value)
+    explicit constexpr CellValue(const std::uint32_t value) noexcept : m_Value(value)
     {
     }
 
     [[nodiscard]] constexpr bool IsEmpty() const noexcept
     {
-        return Value_ == 0;
+        return m_Value == 0;
     }
 
     [[nodiscard]] constexpr std::uint32_t Value() const noexcept
     {
-        return Value_;
+        return m_Value;
     }
 
     auto operator<=>(const CellValue &) const = default;
 
   private:
-    std::uint32_t Value_{};
+    std::uint32_t m_Value{};
 };
 
 static_assert(sizeof(CellValue) == sizeof(std::uint32_t));
