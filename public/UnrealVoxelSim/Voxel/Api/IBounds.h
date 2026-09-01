@@ -9,7 +9,6 @@ namespace UnrealVoxelSim::Voxel::Api
 	public:
 		virtual ~IBounds() = default;
 
-		// TODO Rename to GetBounds()
-		[[nodiscard]] virtual Region Bounds() const noexcept = 0;
+		[[nodiscard]] virtual Region GetBounds() const noexcept = 0;
 	};
 }
