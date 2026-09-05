@@ -4,6 +4,7 @@ add_executable(
     ${PROJECT_NAME}.Test
     UnrealVoxelSim/Voxel/Api/CellValueTest.cpp
     UnrealVoxelSim/Voxel/Api/RegionTest.cpp
+    UnrealVoxelSim/Voxel/Api/SetTest.cpp
     UnrealVoxelSim/Voxel/Api/VoxelTopologyTest.cpp
 )
 
